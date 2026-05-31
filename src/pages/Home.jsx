@@ -6,6 +6,7 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="container hero__inner">
+          <img src={SITE.logo} alt={SITE.name} className="hero__logo" width={220} height={220} />
           <p className="hero__eyebrow">Youth volleyball · {SITE.season}</p>
           <h1>{SITE.name}</h1>
           <p className="hero__lead">{SITE.tagline}</p>

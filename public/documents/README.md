@@ -1,12 +1,12 @@
 # Club documents
 
-Add PDF files here with these exact filenames:
+PDFs in this folder are served at `https://vertexvbc.ca/documents/<filename>`.
 
-- `handbook.pdf`
-- `parents-code-of-conduct.pdf`
-- `athlete-code-of-conduct.pdf`
-- `coach-code-of-conduct.pdf`
-- `discipline-complaints-policy.pdf`
-- `concussion-policy.pdf`
+| File | Original name |
+|------|----------------|
+| `parent-code-of-conduct.pdf` | Parent Code of Conduct.pdf |
+| `athlete-code-of-conduct.pdf` | Athlete Code of Conduct.pdf |
+| `coach-code-of-conduct.pdf` | Coach Code of Conduct.pdf |
+| `discipline-complaints-policy.pdf` | Discipline and Complaints Policy.pdf |
 
-They will be available at `https://vertexvbc.ca/documents/...` after deploy.
+Use lowercase letters, hyphens, and no spaces in filenames so links work reliably online.

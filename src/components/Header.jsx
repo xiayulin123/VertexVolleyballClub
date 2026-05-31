@@ -9,9 +9,7 @@ export default function Header() {
     <header className="header">
       <div className="container header__inner">
         <NavLink to="/" className="brand" onClick={() => setOpen(false)}>
-          <span className="brand__mark" aria-hidden="true">
-            V
-          </span>
+          <img src={SITE.logo} alt="" className="brand__logo" width={56} height={56} />
           <span className="brand__text">
             <span className="brand__name">{SITE.name}</span>
             <span className="brand__domain">{SITE.domain}</span>

@@ -6,6 +6,7 @@ export const SITE = {
   instagram: 'https://www.instagram.com/vertexvbc',
   tryoutForm: 'https://forms.google.com/', // Replace with your Google Form URL
   season: '2026–2027',
+  logo: '/logo.jpg',
 }
 
 export const NAV_LINKS = [
@@ -69,12 +70,10 @@ export const GIRLS_PROGRAMS = [
 ]
 
 export const DOCUMENTS = [
-  { title: 'Club Handbook', file: '/documents/handbook.pdf' },
-  { title: 'Parents Code of Conduct', file: '/documents/parents-code-of-conduct.pdf' },
+  { title: 'Parent Code of Conduct', file: '/documents/parent-code-of-conduct.pdf' },
   { title: 'Athlete Code of Conduct', file: '/documents/athlete-code-of-conduct.pdf' },
   { title: 'Coach Code of Conduct', file: '/documents/coach-code-of-conduct.pdf' },
   { title: 'Discipline & Complaints Policy', file: '/documents/discipline-complaints-policy.pdf' },
-  { title: 'Concussion Policy', file: '/documents/concussion-policy.pdf' },
 ]
 
 export const TRYOUT_INFO = {

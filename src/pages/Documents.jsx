@@ -7,7 +7,7 @@ export default function Documents() {
       <PageHero
         eyebrow="Resources"
         title="Documents"
-        description="Club handbook and policies for parents, athletes, and coaches."
+        description="Codes of conduct and club policies for parents, athletes, and coaches."
       />
 
       <section className="section">
@@ -15,23 +15,18 @@ export default function Documents() {
           <ul className="doc-list">
             {DOCUMENTS.map((doc) => (
               <li key={doc.file}>
-                <a href={doc.file} className="doc-card" download>
+                <a href={doc.file} className="doc-card" target="_blank" rel="noopener noreferrer">
                   <span className="doc-card__icon" aria-hidden="true">
                     PDF
                   </span>
                   <span>
                     <span className="doc-card__title">{doc.title}</span>
-                    <span className="doc-card__hint">Download PDF</span>
+                    <span className="doc-card__hint">Open PDF</span>
                   </span>
                 </a>
               </li>
             ))}
           </ul>
-          <p className="container narrow note-box" style={{ marginTop: '2rem' }}>
-            Place your PDF files in the <code>public/documents/</code> folder using the filenames
-            listed in <code>src/data/site.js</code>. See{' '}
-            <code>public/documents/README.md</code> for details.
-          </p>
         </div>
       </section>
     </>
